@@ -50,7 +50,7 @@ var questionContainer = document.getElementById('question');
 var answerResultContainer = document.getElementById('answerResult');
 var answerContainer = document.getElementById('answers');
 
-scoreContainer.innerHTML = 0;
+adjustScore(score);
 
 
 //First function to show
