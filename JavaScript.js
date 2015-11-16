@@ -93,11 +93,15 @@ function checkGuessedAnswer() {
 
 function respondForCorrectAnswer() {
     answerResultContainer.innerHTML = questions[currentQuestion].replies.correct;
+    answerResultContainer.classList.add("correct");
+    answerResultContainer.classList.remove("wrong");
     adjustScore(10);
 }
 
 function respondForIncorrectAnswer() {
     answerResultContainer.innerHTML = questions[currentQuestion].replies.incorrect;
+    answerResultContainer.classList.add("wrong");
+    answerResultContainer.classList.remove("correct");
     adjustScore(-10);
 }
 
