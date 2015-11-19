@@ -1,7 +1,3 @@
-﻿//TODO Create slideshow for me so I know what to do & what order...
-//TODO Make CSS pretty
-
-
 var stringExample = 'This is some text.';
 var numberExample = 4830.38;
 document.getElementById('question').innerHTML = stringExample + (numberExample * 2);
