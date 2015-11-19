@@ -16,7 +16,7 @@ body{
     padding: 15px;
     text-align: center;
     font-size: 64px;
-    margin: 12px 0 36px 0;
+    margin: 12px auto 36px auto;
     color: rgb(0, 113, 160);
 }
 #scoreCard p{
@@ -44,6 +44,7 @@ body{
 }
 #question{
     margin:10px 0;
+    text-align:center;
 }
 #question:before{
     content: "Q: ";
